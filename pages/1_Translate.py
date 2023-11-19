@@ -74,9 +74,11 @@ st.title("Word Document Generator")
 document_title = st.text_input("Enter document title:")
 document_content = st.text_area("Enter document content:")
 
+document_content=document_content.replace('.','.\n')
+document_content=document_content.replace('?','?\n')
 # Button to generate the Word document
 if st.button("Generate Word Document"):
-    doc_bytes = generate_word_document(document_title, textToReturn)
+    doc_bytes = generate_word_document(document_title, document_content)
 
     # Create a downloadable link
     st.download_button(
