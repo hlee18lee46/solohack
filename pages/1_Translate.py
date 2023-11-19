@@ -4,7 +4,7 @@ import openai
 from docx import Document
 import base64
 import io  # Don't forget to import the 'io' module
-openai.api_key = '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'
+openai.api_key = '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'
 textToReturn = 'test'
 def translate_text(input_text, source_language, target_language):
     # Formulate a prompt for translation
