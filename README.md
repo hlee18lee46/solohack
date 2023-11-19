@@ -5,4 +5,4 @@
         This helps to store user's desired expressions and generate a word document.
         The application is using openAI API for translation.
 
-Link to a demo: [https://youtu.be/QLQUJKN_pIY](https://youtu.be/uKbWLfDrurE)https://youtu.be/uKbWLfDrurE
+Link to a demo: https://youtu.be/3Ncy1tv-_Hk
